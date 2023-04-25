@@ -3,3 +3,122 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.corpo {
+    background-color: gray;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 325px;
+
+}
+
+.resultado {
+    background-color: hsl(241, 81%, 54%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    margin-right: -10px;
+
+}
+
+.score {
+    background-color: hsla(256, 72%, 46%, 1);
+    padding: 100px;
+    border-radius: 100%;
+    height: 100px;
+    width:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.summary {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: ;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.itens {
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.item {
+    margin-right: 100px;
+}
+
+h3 {
+    margin-top: 20px;
+    font-family: 'Hanken Grotesk', sans-serif;   
+}
+
+#reaction {
+    background-color: hsla(0, 100%, 67%, 0.07);
+    color: hsl(0, 100%, 67%) ;
+}
+#memory {
+    background-color: hsla(39, 100%, 56%, 0.07);
+    color: hsl(39, 100%, 56%);
+}
+
+#verbal {
+    background-color: hsla(166, 100%, 37%, 0.09);
+    color: hsl(166, 100%, 37%);
+}
+
+#visual {
+    background-color: hsla(234, 85%, 45%, 0.07);
+    margin-bottom: 20px;
+    color: hsl(234, 85%, 45%);
+}
+
+button {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.your {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Hanken Grotesk', sans-serif; 
+    color: hsl(241, 100%, 89%);
+}
+
+h1 {
+    color: white;
+    font-size: 70px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.ponto {
+    color: hsl(241, 100%, 89%);
+}
+
+h2 {
+    color: white;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 30px;
+}
+
+.texto {
+    color: hsl(241, 100%, 89%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    
+}
