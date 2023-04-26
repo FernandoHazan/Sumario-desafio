@@ -6,7 +6,7 @@
 }
 
 .corpo {
-    background-color: gray;
+    background-color: white;
 }
 
 .principal {
@@ -69,12 +69,14 @@
     margin-left: 20px;
     position: absolute;
     left: 720px;
+    color: hsla(240, 11%, 49%, 0.692);
 
 }
 
 .menor {
     position: absolute;
     left: 714px;
+    color: hsl(224, 30%, 27%);
 }
 
 .item {
@@ -141,6 +143,8 @@ h1 {
 
 .ponto {
     color: hsl(241, 100%, 89%);
+    position: absolute;
+    top: 545px;
 }
 
 h2 {
