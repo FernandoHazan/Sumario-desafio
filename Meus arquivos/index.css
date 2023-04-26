@@ -5,7 +5,7 @@
 }
 
 .corpo {
-    background-color: gray;
+    background-color: white;
 }
 
 .principal {
@@ -13,24 +13,29 @@
     flex-direction: row;
     justify-content: center;
     margin-top: 325px;
+    flex-wrap: wrap;
 
 }
 
 .resultado {
-    background-color: hsl(241, 81%, 54%);
+    background-image: linear-gradient( to bottom,hsl(252, 100%, 67%) 5%, hsl(241, 81%, 54%) 90%);
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 30px;
     margin-right: -10px;
+    width: 350px;
+    padding-left: 60px;
+    padding-right: 60px;
+
 }
 
 .score {
-    background-color: hsla(256, 72%, 46%, 1);
+    background-image: linear-gradient(to bottom,hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0) 90%);
     padding: 100px;
     border-radius: 100%;
     height: 100px;
-    width:10px;
+    width: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,9 +50,9 @@
     justify-content: flex-start;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    border-bottom-right-radius: ;
     padding-left: 30px;
     padding-right: 30px;
+    width: 350px;
 }
 
 .itens {
@@ -114,10 +119,13 @@ h2 {
     color: white;
     font-family: 'Hanken Grotesk', sans-serif;
     font-size: 30px;
+    margin-bottom: 20px;
 }
 
 .texto {
     color: hsl(241, 100%, 89%);
     font-family: 'Hanken Grotesk', sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
     
 }
